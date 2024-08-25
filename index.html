@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Métodos de los arreglos</title>
+
+</head>
+<body>
+    <div class="container">
+        <section class="todo-list-title">
+            <h2>Todo List</h2>
+            <hr>
+        </section>
+        <section class="todo-list-content">
+            <span class="sub-titulo">Nueva Tarea</span>
+            <div class="input-button">
+                <input id="input-agregar" type="text" placeholder="Agregar tarea">
+                <button id="button-agregar">Agregar</button>
+            </div>
+        </section>
+        <section class="total-realizadas">
+            <p id="total">Total : <span id="cantidad">0</span></p>
+            <p>Realizadas : <span id="realizadas">0</span></p>
+        </section>
+        <section class="tareas-list">
+            <div class="titles">
+                <p class="id-title">ID :</p>
+                <p class="tareas-title">Tareas :</p>
+            </div>
+            <div class="lists">
+                <ul id="id-list"></ul>
+                <ul id="tareas"></ul>
+            </div>
+        </section>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

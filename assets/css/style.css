@@ -1,0 +1,134 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #1e0825;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(173, 225, 244);
+    background: linear-gradient(90deg, rgb(134, 212, 240) 0%, rgb(184, 234, 244) 100%);
+}
+
+hr {
+    border: 1px solid rgba(128, 128, 128, 0.36);
+    margin: 30px 5px 30px 5px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ededed;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 7px 9px 25px 0px rgba(0, 0, 0, 0.20);
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05); 
+}
+
+
+.sub-titulo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.todo-list-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-agregar {
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #ededed;
+    border: 2px solid #ccc;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#button-agregar:hover {
+    background-color: #48cae417;
+    border-color: #354f52;
+}
+
+input {
+    width: 85%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #ededed;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input:hover {
+    background-color: #48cae417;
+    border-color: #354f52;
+}
+
+.total-realizadas {
+    margin-top: 20px;
+}
+
+.tareas-list {
+    margin-top: 20px;
+    display: grid;
+    justify-items: end;
+}
+
+.titles {
+    display: flex;
+    gap: 50px;
+    margin-right: 17.3rem;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.id-title,
+.tareas-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.id-list,
+#tareas {
+    padding: 0;
+    margin: 0;
+}
+
+.eliminar {
+    border: none;
+    cursor: pointer;
+}
+
+.completada {
+    border: none;
+    cursor: pointer;
+}
